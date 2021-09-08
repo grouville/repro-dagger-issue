@@ -1,0 +1,23 @@
+plan:
+    package: .
+name: foo-bar
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1gxwmtwahzwdmrskhf90ppwlnze30lgpm056kuesrxzeuyclrwvpsupwtpk
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBNamh0RGoyV24raGRvNkFS
+            b1FkL1prNEN2UkFKVVpzKzlxZ2tXdGtReEhjCmRubUlJRE1ENkhGZGN1TUR2WFBv
+            L0phMm5nMHg3V3JBSjJFYnljMGY5NWMKLS0tIFVLeCtIMXVEZGpya1Vxc2M3SDZT
+            clM2Tm9qWGZIUnJzWjVuNE9GVzA3ME0KvZRUZxLGy6xRRQUtzh/jUfw8Bvoi2DmE
+            F6qGoUtu92FxjIEJ8rr/GNr21ESdntOZUtnMiggIg3U9AKjY4NAqDw==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2021-09-07T22:30:37Z"
+    mac: ENC[AES256_GCM,data:ajU7lJBBT3mbgTOgMtqt3yWZTmB76RcZDsiqu9wdAWMfSu9WdCSFtBjZmWPFu3PVbLk7opL9qdNSafVS5uk9KpnvBZSxIwBUTN8lVH4NuycWaYfZga+UFTCIxXf8LwpKxXv2sOdcLI52t5YfOwiQOyxhHm9d2VBTObLxMZvA8yk=,iv:0n/1gg7nQD8n79JrLkb5vPJqhAxyqxdd0lbB7IVo6pI=,tag:KsHTcf2AmKJ7FyWfKFxzNQ==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1
